@@ -480,3 +480,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Keep the locally packed NuGet package so the repo restores on a fresh clone
+!packages/
+!packages/*.nupkg
